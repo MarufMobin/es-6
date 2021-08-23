@@ -46,6 +46,12 @@ const doMath = (x, y) => {
 }
 
 const total = doMath( 12, 5);
-console.log(total)
+// console.log(total)
+
+
+// Using Add event handler with in arrow function
+document.getElementById('my-btn').addEventListener(event => {
+    // Most inportant this
+}) 
 
 
